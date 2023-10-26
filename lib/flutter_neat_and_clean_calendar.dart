@@ -174,7 +174,8 @@ class Calendar extends StatefulWidget {
     this.displayMonthTextStyle,
     this.datePickerConfig,
     this.eventTileHeight,
-    this.showEvents = true,Key key
+    this.showEvents = true,
+    Key? key
   }): super(key: key);
 
   @override
