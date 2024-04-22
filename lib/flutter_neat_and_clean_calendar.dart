@@ -671,7 +671,7 @@ class CalendarState extends State<Calendar> {
                                   Text(event.summary,
                                       style: Theme.of(context)
                                           .textTheme
-                                          .subtitle2),
+                                          .titleSmall),
                                   SizedBox(
                                     height: 10.0,
                                   ),
